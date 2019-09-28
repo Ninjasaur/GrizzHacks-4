@@ -8,3 +8,7 @@ body{
     right: 1;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
+a.trail{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: red;
+}
