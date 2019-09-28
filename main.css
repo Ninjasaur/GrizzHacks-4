@@ -1,11 +1,13 @@
 body{
     background-color: #D3D3D3;
     }
+.help{
+    position: absolute;
+    top: 0;
+    right: 10;
+}
 
 a.trail{
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     color: pink;
-    position: absolute;
-    top: 0;
-    right: 10;
 }
