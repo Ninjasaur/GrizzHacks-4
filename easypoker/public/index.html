@@ -14,12 +14,16 @@
     <!-- flavicon link -->
     <link rel = "shortcut icon" type = "image/png" href = "https://cdn.discordapp.com/attachments/460075353273270282/627646069970436114/rsz_poker-chip-icon-9.jpg">
 </head>
-<body background="assets/FUNKY.png" style="background-size: 100% auto; background-repeat: no-repeat; height: 100%">
-    <div class="wrapper" >
+<style>
+    #grad {
+        background-image: radial-gradient(green, black);
+    }
+</style>
+<body id="grad" style="background-size: 100% auto; background-repeat: no-repeat; height: 100vh">
+<div class="wrapper" style="margin-left: 3%; margin-right: 3%; height: 100vh">
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
             <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
                 <ul class="navbar-nav mr-auto">
-                    <button class="btn btn-outline-light"> Back </button>
                 </ul>
             </div>
             <div class="mx-auto order-0">
@@ -31,8 +35,7 @@
             <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
                 <ul class="navbar-nav ml-auto">
                     <ul class="navbar-nav mr-auto">
-                        <button class="btn btn-outline-light"><a class="trail" href="https://www.cardschat.com/organize-home-game.php"
-                                                                 target="_blank" style="text-decoration: none">Help</a></button>
+                        <a href="https://www.cardschat.com/organize-home-game.php" class="btn btn-outline-light">Help</a>
                     </ul>
                 </ul>
             </div>
@@ -44,16 +47,16 @@
                     <div class="row">
                         <div class="col-lg-3"></div>
                         <div class="col-lg-6">
-                            <p class = "description">This site has been engineered specifically for use at home games of poker.
-                                You will enter what type of poker you are playing, how many different chips you have, how many people
-                                are playing, and what type of game pace. You will then be informed on how many chips to give out, and the game is on.
-                                During the game, the screen will include a timer and which chips are in play. Enjoy!
-                            </p>
+<!--                            <p class = "description">This site has been engineered specifically for use at home games of poker.-->
+<!--                                You will enter what type of poker you are playing, how many different chips you have, how many people-->
+<!--                                are playing, and what type of game pace. You will then be informed on how many chips to give out, and the game is on.-->
+<!--                                During the game, the screen will include a timer and which chips are in play. Enjoy!-->
+<!--                            </p>-->
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-12" align="center">
-                    <button class="btn btn-outline-light" onclick="">Setup Game</button>
+                    <a href="form.html" class="btn btn-outline-light" onclick="" style="margin-top: 25%; margin-bottom: 25%">Setup Game</a>
                 </div>
             </div>
         </div>
@@ -66,8 +69,3 @@
 </body>
 
 </html>
-<script>
-    function request_next() {
-        
-    }
-</script>
