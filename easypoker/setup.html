@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.4.0/css/bootstrap4-toggle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'scheduler/default.css' %}">
+
+    <script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.4.0/js/bootstrap4-toggle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+            <ul class="navbar-nav mr-auto">
+                <button class="btn btn-outline-light"> Back </button>
+            </ul>
+        </div>
+        <div class="mx-auto order-0">
+            <a class="navbar-brand mx-auto" href="#">easypoker</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+            <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav mr-auto">
+                    <button class="btn btn-outline-light"> Help </button>
+                </ul>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div id="body" class="container-fluid jumbotron">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="row justify-content-center">
+                    <div class="col-sm-3">
+                    </div>
+                    <div class="col-sm-6" align="center">
+                        <h1>Starting Stacks</h1>
+                    </div>
+                    <div class="col-sm-3">
+                    </div>
+                </div>
+                <div class="row justify-content-center ">
+                    <div class="col-sm-3" align="center">
+                        <img src="chip.png" style="width: 180px; height: auto">
+                    </div>
+                    <div class="col-sm-3" align="center">
+                        <img src="chip.png" style="width: 180px; height: auto">
+                    </div>
+                    <div class="col-sm-3" align="center">
+                        <img src="chip.png" style="width: 180px; height: auto">
+                    </div>
+                    <div class="col-sm-3" align="center">
+                        <img src="chip.png" style="width: 180px; height: auto">
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-sm-3" align="center">
+                        <h3>x15</h3>
+                    </div>
+                    <div class="col-sm-3" align="center">
+                        <h3>x3</h3>
+                    </div>
+                    <div class="col-sm-3" align="center">
+                        <h3>x2</h3>
+                    </div>
+                    <div class="col-sm-3" align="center">
+                        <h3>x1</h3>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-sm-3">
+                    </div>
+                    <div class="col-sm-6" align="center">
+                        <button class="btn btn-lg btn-outline-primary"> I'm Ready </button>
+                    </div>
+                    <div class="col-sm-3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
