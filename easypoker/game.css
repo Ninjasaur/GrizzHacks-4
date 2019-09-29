@@ -1,0 +1,22 @@
+.toggle.android {
+    border-radius: 0px;
+}
+.toggle.android .toggle-handle {
+    border-radius: 0px;
+}
+.wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 80%;
+    padding-right: 4%;
+    padding-left: 4%;
+    min-height: calc(100vh);
+}
+
+#nav{
+    border-radius: 4px;
+    width: 100%;
+}
+#body {
+    margin-top: 30px;
+}
