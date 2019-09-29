@@ -1,14 +1,42 @@
-body{
-    background-color: #D3D3D3;
-    background-image: "https://media.discordapp.net/attachments/460075353273270282/627635862502637568/EASYPOKERNIGHT.jpg?width=709&height=473";
-    }
-.help{
-    position: absolute;
-    top: 0;
-    right: 0;
+body {
+    /*background-image: url("assets/FUNKY.png");*/
+    position: relative;
+    min-height: 100%;
+    min-height: 100vh;
 }
-
-a.trail{
+footer{
+    position: absolute;
+    right: 0; bottom:0; left:0;
+}
+#footer{
+    margin-top: 3%;
+}
+.bgimg{
+    background-image: url("assets/FUNKY.png");
+}
+.description{
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    color: pink;
+    text-align: center;
+    margin-top: 5%;
+}
+.wrapper{
+    margin-right: auto;
+    margin-left: auto;
+    min-height: calc(100vh);
+}
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fav {
+    vertical-align: text-bottom;
+    bottom: 2%;
+}
+.bottom {
+    text-align: center;
+    position: sticky;
+}
+#sticky-footer {
+    flex-shrink: none;
 }
