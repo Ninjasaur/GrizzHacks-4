@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.4.0/css/bootstrap4-toggle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'scheduler/default.css' %}">
+
+    <script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.4.0/js/bootstrap4-toggle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+                <ul class="navbar-nav mr-auto">
+                    <button class="btn btn-outline-light"> Back </button>
+                </ul>
+            </div>
+            <div class="mx-auto order-0">
+                <a class="navbar-brand mx-auto" href="#">easypoker</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+                <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav mr-auto">
+                        <button class="btn btn-outline-light"> Help </button>
+                    </ul>
+                </ul>
+            </div>
+        </nav>
+        <form>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="col-6">
+                                <h2> Select Chip Color </h2>
+                            </div>
+                            <div class="col-6">
+                                <h2> Input </h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <select name="cars" class="custom-select">
+                                    <option selected> Red </option>
+                                    <option> Blue </option>
+                                    <option> White </option>
+                                    <option> Black </option>
+                                    <option> Green </option>
+                                </select>
+                            </div>
+                            <div class="col-6">
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">#</span>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="Number of Chips">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <select name="cars" class="custom-select">
+                                    <option> Red </option>
+                                    <option selected> Blue </option>
+                                    <option> White </option>
+                                    <option> Black </option>
+                                    <option> Green </option>
+                                </select>
+                            </div>
+                            <div class="col-6">
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">#</span>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="Number of Chips">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <select name="cars" class="custom-select">
+                                    <option> Red </option>
+                                    <option> Blue </option>
+                                    <option selected> White </option>
+                                    <option> Black </option>
+                                    <option> Green </option>
+                                </select>
+                            </div>
+                            <div class="col-6">
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">#</span>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="Number of Chips">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <select name="cars" class="custom-select">
+                                    <option> Red </option>
+                                    <option> Blue </option>
+                                    <option> White </option>
+                                    <option selected> Black </option>
+                                    <option> Green </option>
+                                </select>
+                            </div>
+                            <div class="col-6">
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">#</span>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="Number of Chips">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 form-check">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">#</span>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="Number of People">
+                                </div>
+                            </div>
+                        </div>
+                        <fieldset id="radiogroup">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <label class="form-check-label">
+                                                <input type="radio" class="form-check-input" value="isaggro" name="radiogroup">
+                                                Aggressive
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <label class="form-check-label">
+                                                <input type="radio" class="form-check-input" value="isnorm" name="radiogroup">
+                                                Normal
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <label class="form-check-label">
+                                                <input type="radio" class="form-check-input" value="ispass" name="radiogroup">
+                                                Passive
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
